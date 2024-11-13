@@ -72,8 +72,8 @@ function Home() {
         title={data.title}
         overview={overview(data.overview)}
         poster={`https://image.tmdb.org/t/p/w500/${data.poster_path}`}
-        voteAverage={data.voteAverage}
-        voteCount={data.voteCount}
+        voteAverage={data.vote_average}
+        voteCount={data.vote_count}
       />
     );
   });
